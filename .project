@@ -34,16 +34,4 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/main/webapp/images/backgroundArt.jpg</name>
-			<type>1</type>
-			<location>C:/Users/148424/Pictures/Saved Pictures/backgroundArt.jpg</location>
-		</link>
-		<link>
-			<name>src/main/webapp/images/shoppingCart.jpg</name>
-			<type>1</type>
-			<location>C:/Users/148424/Pictures/Saved Pictures/shoppingCart.jpg</location>
-		</link>
-	</linkedResources>
 </projectDescription>
