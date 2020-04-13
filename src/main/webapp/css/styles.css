@@ -119,3 +119,14 @@ body {
     font-size: 30px;
     text-align: center;
 }
+
+
+/*Footer styles*/
+
+footer {
+  padding: 1em;
+  text-align: center;
+  color: rgb(245, 241, 236);
+  background: rgba(155, 151, 151, 0.6);
+
+}
