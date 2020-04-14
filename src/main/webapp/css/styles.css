@@ -18,16 +18,16 @@ body {
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 1.5em;
   }
 
   .nav-search-wrapper {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(155, 151, 151, 0.6);
-    max-width: 50em;
+    max-width: 40em;
     width: 100%;
     padding: 10px;
     display: flex;
