@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Log-in to Freddy's Files</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+<link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-wrapper">
+					<div class="left-side">
+						<div class="brand">
+							<a href="home.html"> <img class="brand-logo"
+								src="../images/freddys-files-transparent.png"
+								alt="Freddy's Files Logo" />
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-search-wrapper">
+						<input type="text" class="search-bar"
+							placeholder="What are you looking for?" />
+						<div class="search-bar-button">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+
+					<div class="right-side">
+						<div class="nav-link-wrapper">
+							<a href="home.html">Home</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="category.html">Categories</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="account.html">Profile</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--Content goes here-->
+		<div class="form">
+			<form action="account.html" method="post">
+			<div class="input-pair">
+				<label for="txtEmail">Email:</label>
+				<input id="txtEmail" name="txtEmail" type="email">			
+			</div>
+				<br>
+			<div class="input-pair">
+				<label for="txtPassword">Password:</label>
+				<input id="txtPassword" name="txtPassword" type="password" >
+			</div>
+				<br>
+				<input type="submit" value="Login" >
+			</form>
+		</div>
+
+		<footer>
+			<nav>
+				<div class="footer-wrapper">
+					<div class="footer-link-wrapper">
+						<a href="about.html">About Us</a>
+					</div>
+					<div class="footer-link-wrapper">
+						<a href="help.html">Help</a>
+					</div>
+				</div>
+			</nav>
+			&copy; Freddy's Files 2020
+		</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+</html>
