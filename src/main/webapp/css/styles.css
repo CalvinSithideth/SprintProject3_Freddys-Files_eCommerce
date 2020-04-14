@@ -166,3 +166,29 @@ transition: color 0.5s;
 .footer-link-wrapper a:hover {
 color: black;
 }
+
+/* Form Styling */
+
+form {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.input-pair > * { /* Label and text-box */
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+
+form > input[type=submit] {
+	width: 50%;
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
