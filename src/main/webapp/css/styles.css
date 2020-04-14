@@ -97,7 +97,7 @@ height: auto;
 
 }
 
-/*Product Styles*/
+/*Product Styles (This is the old Product Styles. Will need to be erased when all product pages are switched to new layout*/
 
 .content-wrapper {
   display: grid;
@@ -132,6 +132,75 @@ width: 30em;
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+/* Product Styling (This is the new layout styling) */
+.prod-container {
+  display: grid;
+  grid-template-areas:
+    'title title title title title title'
+    'img img main main main right'
+    'img img footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.prod-container > div {
+  background-color: rgba(233, 233, 233, 0.924);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1-title { 
+  grid-area: title;
+}
+
+.item2-img { 
+  height: 58em;
+  width: 75em;
+  border-radius: 3px;
+  margin: 0;
+  grid-area: img; 
+  box-shadow: 1px 1px 10px grey;
+}
+
+
+.item3-desc {
+   grid-area: main; 
+   width: auto;
+  }
+
+.item4-order {
+  grid-area: right; 
+  width: 15em;
+  }
+
+.add-button {
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.add-button:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.item5-req { 
+  grid-area: footer; 
 }
 
 /*Footer styles*/
