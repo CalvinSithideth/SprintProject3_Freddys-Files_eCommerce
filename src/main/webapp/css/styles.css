@@ -331,6 +331,21 @@ form > input[type=submit] {
   background-repeat: no-repeat;
 }
 
+.cat-img-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/vr_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-img-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/race_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
 .cat-info {
   position: absolute;
   width: inherit;
