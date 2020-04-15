@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Product Page</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link rel="stylesheet" href="../../css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav>
-          <div class="nav-wrapper">
-            <div class="left-side">
-              <div class="brand">
-                <a href="../home.html">
-                  <img class="brand-logo" src="../../images/freddys-files-transparent.png" alt="Freddy's Files Logo" />
-                </a>
-              </div>
-            </div>
-            
-            <div class="nav-search-wrapper">
-              <input type="text" class="search-bar" placeholder="What are you looking for?">
-              <div class="search-bar-button"><i class="fas fa-search"></i></div>
-            </div>
-            
-            <div class="right-side">
+<head>
+<meta charset="UTF-8" />
+<title>Product Page</title>
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+<link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-wrapper">
+					<div class="left-side">
+						<div class="brand">
+							<a href="home.html"> <img class="brand-logo"
+								src="../../images/freddys-files-transparent.png"
+								alt="Freddy's Files Logo" />
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-search-wrapper">
+						<input type="text" class="search-bar"
+							placeholder="What are you looking for?">
+						<div class="search-bar-button">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+
+					<div class="right-side">
 						<div class="nav-link-wrapper">
 							<a href="../home.html">Home</a>
 						</div>
@@ -52,49 +55,48 @@
 						<div class="nav-link-wrapper">
 							<a href="../cart.html"><i class="fas fa-shopping-cart"></i></a>
 						</div>
-            </div>
-          </div>
-        </nav>
-      </header>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-
-      <div class="content-wrapper">
-        <div class="product-img">
-          <img src="../../images/mordhau-castello-header.jpg" alt="Product Image goes here">
-        </div>
-        <div class="product-spec">
-          	<div>
-				<p>Title: Mordhou</p>
-				<p>Price: $29.99</p>
-				<P>Description: MORDHAU is a multiplayer medieval slasher. Create <br>
-				your mercenary and fight in brutal battles where you <br>
-				will experience fast pace combat, castle sieges, <br>
-				cavalry charges, and more</P>
-				<p>Reviews: Very Positive</p>
-				<p>ESRB Rating: RP (Rating Pending)</p>
+		<div class="prod-container">
+			<div class="item1-title">Mordhau</div>
+			<img class="item2-img" src="../../images/mordhau.jpg"
+				alt="Mordhau">
+			<div class="item3-desc">
+				<p>MORDHAU is a multiplayer medieval slasher. Create your mercenary 
+                    and fight in brutal battles where you will experience fast paced 
+                    combat, castle sieges, cavalry charges, and more.</p>
 			</div>
-        </div>
-        <div class="product-order">
-          	<div>
-				<p>Availability: Only available as a digital copy on PC</p>
+			<div class="item4-order">
+				Available<br> <i class="fas fa-minus-circle"></i> <input
+					type="number"> <i class="fas fa-plus-circle"></i><br>
+				<button class="add-button">Add To Cart</button>
 			</div>
-        </div>
-      </div>
+			<div class="item5-req">
+				<p>System Requirements:</p><br>
+				<li>OS: Windows 7 64 Bit, Windows 8 64 Bit, Windows 10 64 Bit</li>
+				<li>Processor: Intel Core i5 - 4670 or AMD equivalent</li>
+				<li>Memory: 8 GB RAM</li>
+				<li>Graphics: NVIDIA GTX 680 or AMD equivalent</li>
+				<li>DirectX: Version 11</li>
+				<li>Storage: 20 GB available space</li>
+			</div>
+		</div>
 
-      <footer>
-        <nav>
-          <div class="footer-wrapper">
-            <div class="footer-link-wrapper">
-              <a href="../about.html">About Us</a>
-            </div>
-            <div class="footer-link-wrapper">
-              <a href="../help.html">Help</a>
-            </div>
-          </div>
-        </nav>
-        &copy; Freddy's Files 2020
-      </footer>
-
-    </div>
-  </body>
+		<footer>
+			<nav>
+				<div class="footer-wrapper">
+					<div class="footer-link-wrapper">
+						<a href="about.html">About Us</a>
+					</div>
+					<div class="footer-link-wrapper">
+						<a href="help.html">Help</a>
+					</div>
+				</div>
+			</nav>
+			&copy; Freddy's Files 2020
+		</footer>
+</body>
 </html>
