@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Product Page</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <link rel="stylesheet" href="../../css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav>
-          <div class="nav-wrapper">
-            <div class="left-side">
-              <div class="brand">
-                <a href="../home.html">
-                  <img class="brand-logo" src="../../images/freddys-files-transparent.png" alt="Freddy's Files Logo" />
-                </a>
-              </div>
-            </div>
-            
-            <div class="nav-search-wrapper">
-              <input type="text" class="search-bar" placeholder="What are you looking for?">
-              <div class="search-bar-button"><i class="fas fa-search"></i></div>
-            </div>
-            
-            <div class="right-side">
+<head>
+<meta charset="UTF-8" />
+<title>Product Page</title>
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
+<link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<div class="nav-wrapper">
+					<div class="left-side">
+						<div class="brand">
+							<a href="home.html"> <img class="brand-logo"
+								src="../../images/freddys-files-transparent.png"
+								alt="Freddy's Files Logo" />
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-search-wrapper">
+						<input type="text" class="search-bar"
+							placeholder="What are you looking for?">
+						<div class="search-bar-button">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+
+					<div class="right-side">
 						<div class="nav-link-wrapper">
 							<a href="../home.html">Home</a>
 						</div>
@@ -52,49 +55,50 @@
 						<div class="nav-link-wrapper">
 							<a href="../cart.html"><i class="fas fa-shopping-cart"></i></a>
 						</div>
-            </div>
-          </div>
-        </nav>
-      </header>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-
-      <div class="content-wrapper">
-        <div class="product-img">
-          <img src="../../images/bannerlord-header.jpg" alt="Product Image goes here">
-        </div>
-        <div class="product-spec">
-          	<div>
-				<p>Title: Mount and Blade II Bannerlord</p>
-				<p>Price: $49.99</p>
-				<P>Description: The horns sound, the ravens gather. An empire is torn by civil war <br>
-				Beyhond its border, new kingdoms rise. Gird on your sword, don your armour, <br>
-				summon your followers and ride forth to win glory on the battlefields of Calradia. <br>
-				Establish your hegemony and create a new world out of the ashes of the old.</P>
-				<p>Reviews: Very Positive</p>
-				<p>ESRB Rating: RP (Rating Pending)</p>
+		<div class="prod-container">
+			<div class="item1-title">Mount & Blade 2: Banner Lord</div>
+			<img class="item2-img" src="../../images/bannerlord-header.jpg"
+				alt="Mount & Blade 2">
+			<div class="item3-desc">
+				<p>The horns sound, the ravens gather. An empire is torn by civil war. 
+                    Beyond its borders, new kingdoms rise. Gird on your sword, don your 
+                    armour, summon your followers and ride forth to win glory on the battlefields 
+                    of Calradia. Establish your hegemony and create a new world out of the ashes 
+                    of the old.</p>
 			</div>
-        </div>
-        <div class="product-order">
-          	<div>
-				<p>Availability: Only available as a digital copy on PC</p>
+			<div class="item4-order">
+				Available<br> <i class="fas fa-minus-circle"></i> <input
+					type="number"> <i class="fas fa-plus-circle"></i><br>
+				<button class="add-button">Add To Cart</button>
 			</div>
-        </div>
-      </div>
+			<div class="item5-req">
+				<p>System Requirements:</p><br>
+				<li>Windows 7 (64-bit only)</li>
+				<li>Processor: Intel® Core™ i3-8100 / AMD Ryzen™ 3 1200</li>
+				<li>Memory: 6 GB RAM</li>
+				<li>Graphics: Intel® UHD Graphics 630 / NVIDIA® GeForce® GTX 660 2GB / AMD Radeon™ HD 7850 2GB</li>
+				<li>Storage: 60 GB available space</li>
+				<li>Additional Notes: Integrated GPUs require additional 2GB of system RAM. These estimates may change during final release</li>
+			</div>
+		</div>
 
-      <footer>
-        <nav>
-          <div class="footer-wrapper">
-            <div class="footer-link-wrapper">
-              <a href="../about.html">About Us</a>
-            </div>
-            <div class="footer-link-wrapper">
-              <a href="../help.html">Help</a>
-            </div>
-          </div>
-        </nav>
-        &copy; Freddy's Files 2020
-      </footer>
-
-    </div>
-  </body>
+		<footer>
+			<nav>
+				<div class="footer-wrapper">
+					<div class="footer-link-wrapper">
+						<a href="about.html">About Us</a>
+					</div>
+					<div class="footer-link-wrapper">
+						<a href="help.html">Help</a>
+					</div>
+				</div>
+			</nav>
+			&copy; Freddy's Files 2020
+		</footer>
+</body>
 </html>
