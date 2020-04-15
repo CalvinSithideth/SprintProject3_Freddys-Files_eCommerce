@@ -433,6 +433,40 @@ form > input[type=submit] {
   background-repeat: no-repeat;
 }
 
+.cat-action-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/dbzKakarot.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-action-2{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/opWarriors4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-action-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/rocketLeague.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-racing-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/forzahorizon4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-racing-2{
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/nfsHeat.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
 
 
