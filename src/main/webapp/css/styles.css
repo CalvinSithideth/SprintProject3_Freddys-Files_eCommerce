@@ -17,22 +17,27 @@ height: auto;
 /*Nav Styles*/
 .nav-wrapper {
   display: flex;
+  flex: 1;
   justify-content: space-between;
   padding: 1.5em;
 }
 
+.nav-search-container {
+	display: flex;
+	height: 90%;
+	justify-content: center;
+}
+
 .nav-search-wrapper {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(155, 151, 151, 0.6);
-  max-width: 40em;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 5px;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-content: flex-end;
+	align-self: flex-end;
+	max-width: 95%;
+	padding: 0.5em;
+	border-radius: 5px;
+	background: rgba(155, 151, 151, 0.6);
 }
 
 .search-bar {
@@ -60,9 +65,16 @@ height: auto;
 }
 
 .right-side {
-  display: flex;
+	width: 100%;
 }
-.nav-wrapper .right-side div {
+
+.nav-bar-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+}
+
+.nav-wrapper .nav-bar-wrapper div {
   margin-right: 20px;
   font-size: 0.95em;
   text-transform: uppercase;
