@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>Home Page</title>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Lato"
-	rel="stylesheet" />
-<link rel="stylesheet"
-	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
-<link rel="stylesheet" href="../css/styles.css" />
-</head>
-<body>
-	<div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
 		<header>
 			<nav>
+			
 				<div class="nav-wrapper">
+				
 					<div class="left-side">
 						<div class="brand">
 							<a href="home.html"> <img class="brand-logo"
@@ -27,39 +30,49 @@
 						</div>
 					</div>
 
-					<div class="nav-search-wrapper">
-						<input type="text" class="search-bar"
-							placeholder="What are you looking for?" />
-						<div class="search-bar-button">
-							<i class="fas fa-search"></i>
-						</div>
-					</div>
+
 
 					<div class="right-side">
-						<div class="nav-link-wrapper">
-							<a href="home.html">Home</a>
+						<div class="nav-bar-wrapper">
+							<div class="nav-link-wrapper">
+								<a href="home.html">Home</a>
+							</div>
+	
+							<div class="nav-link-wrapper">
+								<a href="categories/category.html">Categories</a>
+							</div>
+	
+							<div class="nav-link-wrapper">
+								<a href="account.html">Profile</a>
+							</div>
+							
+							<div class="nav-link-wrapper">
+								<a href="login.html">Login</a>
+							</div>
+	
+							<div class="nav-link-wrapper">
+								<a href="register.html">Register</a>
+							</div>
+	
+							<div class="nav-link-wrapper">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
 						</div>
-
-						<div class="nav-link-wrapper">
-							<a href="category.html">Categories</a>
+						
+						<div class="nav-search-container">
+							<div class="nav-search-wrapper">
+								<input type="text" class="search-bar"
+									placeholder="What are you looking for?" />
+								<div class="search-bar-button">
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
 						</div>
-
-						<div class="nav-link-wrapper">
-							<a href="account.html">Profile</a>
-						</div>
-						<div class="nav-link-wrapper">
-							<a href="login.html">Login</a>
-						</div>
-
-						<div class="nav-link-wrapper">
-							<a href="register.html">Register</a>
-						</div>
-
-						<div class="nav-link-wrapper">
-							<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-						</div>
+						
 					</div>
+					
 				</div>
+				
 			</nav>
 		</header>
 
@@ -74,19 +87,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img class="d-block w-100"
-						onclick="window.location.href = 'productPages/mountAndBladeProduct.html'"
-						src="../images/bannerlord-header.jpg" alt="First slide">
+					<img class="d-block w-100" src="../images/bannerlord-header.jpg" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100"
-						onclick="window.location.href = 'productPages/mordhauProduct.html'"
-						src="../images/mordhau-castello-header.jpg" alt="Second slide">
+					<img class="d-block w-100" src="../images/mordhau-castello-header.jpg" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block w-100"
-						onclick="window.location.href = 'productPages/rdr2Product.html'"
-						src="../images/red-dead-redemption-2-header.jpg" alt="Third slide">
+					<img class="d-block w-100" src="../images/red-dead-redemption-2-header.jpg" alt="Third slide">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -101,30 +108,22 @@
 		</div>
 
 		<footer>
-			<nav>
-				<div class="footer-wrapper">
-					<div class="footer-link-wrapper">
-						<a href="about.html">About Us</a>
-					</div>
-					<div class="footer-link-wrapper">
-						<a href="help.html">Help</a>
-					</div>
-				</div>
-			</nav>
-			&copy; Freddy's Files 2020
-		</footer>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-		crossorigin="anonymous"></script>
-</body>
+        <nav>
+          <div class="footer-wrapper">
+            <div class="footer-link-wrapper">
+              <a href="about.html">About Us</a>
+            </div>
+            <div class="footer-link-wrapper">
+              <a href="help.html">Help</a>
+            </div>
+          </div>
+        </nav>
+        &copy; Freddy's Files 2020
+      </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
