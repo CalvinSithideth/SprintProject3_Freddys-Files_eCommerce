@@ -4,8 +4,8 @@
 		<div class="nav-wrapper">
 			<div class="left-side">
 				<div class="brand">
-					<a href="home.html"> <img class="brand-logo"
-						src="../images/freddys-files-transparent.png"
+					<a href="/SprintProject3/views/home.jsp"> <img class="brand-logo"
+						src="/SprintProject3/images/freddys-files-transparent.png"
 						alt="Freddy's Files Logo" />
 					</a>
 				</div>
@@ -13,27 +13,27 @@
 			<div class="right-side">
 				<div class="nav-bar-wrapper">
 					<div class="nav-link-wrapper">
-						<a href="home.html">Home</a>
+						<a href="/SprintProject3/views/home.jsp">Home</a>
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="categories/category.html">Categories</a>
+						<a href="/SprintProject3/views/categories/category.html">Categories</a>
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="account.html">Profile</a>
+						<a href="/SprintProject3/views/account.html">Profile</a>
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="login.html">Login</a>
+						<a href="/SprintProject3/views/login.html">Login</a>
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="register.html">Register</a>
+						<a href="/SprintProject3/views/register.html">Register</a>
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<a href="/SprintProject3/views/cart.html"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 				<div class="nav-search-container">
