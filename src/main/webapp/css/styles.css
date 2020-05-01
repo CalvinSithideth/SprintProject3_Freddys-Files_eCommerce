@@ -382,6 +382,104 @@ form > input[type=submit] {
   text-shadow: 2px 2px 4px #000000;
 }
 
+/*styling for the fps category*/
+.cat-fps-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/Battlefield5.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.cat-fps-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/CallofDuty.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-fps-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/Cyberpunk_2077.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-fps-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/DoomEternal.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-rpg-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/star-wars-jedi-wallpaper.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-rpg-2{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/mordhau.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-rpg-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/bannerlord-header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-rpg-4{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/zeldaBreathOfTheWild.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-rpg-5{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/reddead2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-action-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/dbzKakarot.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-action-2{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/opWarriors4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-action-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/rocketLeague.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-racing-1{
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/forzahorizon4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cat-racing-2{
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)),
+  url(../images/nfsHeat.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 
 
 
