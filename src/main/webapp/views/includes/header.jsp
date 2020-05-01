@@ -25,7 +25,7 @@
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="/SprintProject3/views/login.html">Login</a>
+						<a href="/SprintProject3/views/login.jsp">Login</a>
 					</div>
 
 					<div class="nav-link-wrapper">
