@@ -9,6 +9,12 @@ body {
   grid-template-columns: 1fr;
 }
 
+.container-about {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .brand-logo {
 width: 200px;
 height: auto;
