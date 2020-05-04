@@ -16,7 +16,7 @@
 	<c:import url="/views/includes/header.jsp"></c:import>
 	
 	<div class="form">
-		<form action="/Account" method="post">
+		<form action="/SprintProject3/Account" method="post">
 			<div class="input-pair">
 				<label for="txtEmail">Email:</label>
 				<input id="txtEmail" name="txtEmail" type="email">
