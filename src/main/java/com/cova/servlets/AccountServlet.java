@@ -2,7 +2,6 @@ package com.cova.servlets;
 
 import java.io.IOException;
 
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -42,6 +41,9 @@ public class AccountServlet extends HttpServlet {
 		
 		session.setAttribute("email", userEmail);
 		session.setAttribute("password", userPassword);
+		
+		getServletContext().getRequestDispatcher("/SprintProject3/view/home.jsp")
+			.forward(request, response);
 	}
 
 }
