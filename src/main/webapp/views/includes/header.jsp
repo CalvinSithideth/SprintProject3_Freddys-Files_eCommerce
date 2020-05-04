@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="/SprintProject3/views/register.html">Register</a>
+						<a href="/SprintProject3/views/register.jsp">Register</a>
 					</div>
 
 					<div class="nav-link-wrapper">
