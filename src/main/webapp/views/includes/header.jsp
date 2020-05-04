@@ -33,7 +33,7 @@
 					</div>
 
 					<div class="nav-link-wrapper">
-						<a href="/SprintProject3/views/cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<a href="/SprintProject3/views/cart.jsp"><i class="fas fa-shopping-cart"></i></a>
 					</div>
 				</div>
 				<div class="nav-search-container">
