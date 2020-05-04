@@ -27,4 +27,17 @@ INSERT INTO Products
 ('Red Dead Redemption 2', '\\SprintProject3_Freddys-Files_eCommerce\\src\\main\\webapp\\images\\reddead2.jpg', 'Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age. Also includes access to the shared living world of Red Dead Online.', 50.00, 'OS: Windows 7 - Service Pack 1 (6.1.7601), Processor: Intel® Core™ i5-2500K / AMD FX-6300, Graphics Card: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB, Memory: 8 GB RAM, Storage: HDD Space: 150GB'),
 ('Rocket League', '\\SprintProject3_Freddys-Files_eCommerce\\src\\main\\webapp\\images\\rocketLeague.jpg', 'Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations.', 19.99, 'OS: Windows 7 (64 bit) or Newer (64 bit) Windows OS, Processor: 2.5 GHz Dual core, Graphics: NVIDIA GeForce 760, AMD Radeon R7 270X, or better, Memory: 4 GB RAM, DirectX: 12 Compatible video card or equivalent, Hard-drive space: 20 GB');
 
+DROP TABLE IF EXISTS Users;
+CREATE TABLE Users (
+	UserName varchar(255),
+    UserPassword varchar(255));
+    
+INSERT INTO Users
+(UserName, UserPassword) VALUES
+('freddy', 'password'),
+('steven', 'password'),
+('calvin', 'password'),
+('cole', 'password');
+
+select * from Users;
 select * from Products;
