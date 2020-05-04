@@ -3,6 +3,7 @@ package com.cova.servlets;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -36,11 +37,23 @@ public class AccountServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		
-		String userEmail = (String) request.getAttribute("txtEmail");
-		String userPassword = (String) request.getAttribute("txtPassword");
+		String userEmail = (String) request.getParameter("txtEmail");
+		String userPassword = (String) request.getParameter("txtPassword");
 		
 		session.setAttribute("email", userEmail);
 		session.setAttribute("password", userPassword);
+		
+		Cookie emailCookie = new Cookie("emailCookie", userEmail);
+		Cookie passwordCookie = new Cookie("passwordCookie", userPassword);
+		
+		emailCookie.setMaxAge(60*30);		// 30 minute cookie
+		passwordCookie.setMaxAge(60*30);
+		
+		emailCookie.setPath("/");			// allow access by entire app
+		passwordCookie.setPath("/");
+		
+		response.addCookie(emailCookie);
+		response.addCookie(passwordCookie);
 		
 		getServletContext().getRequestDispatcher("/views/home.jsp")
 			.forward(request, response);
