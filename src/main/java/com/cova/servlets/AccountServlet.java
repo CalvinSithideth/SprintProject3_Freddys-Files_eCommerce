@@ -42,7 +42,7 @@ public class AccountServlet extends HttpServlet {
 		session.setAttribute("email", userEmail);
 		session.setAttribute("password", userPassword);
 		
-		getServletContext().getRequestDispatcher("/SprintProject3/view/home.jsp")
+		getServletContext().getRequestDispatcher("/views/home.jsp")
 			.forward(request, response);
 	}
 
