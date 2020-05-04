@@ -24,6 +24,12 @@
 <body>
 	<c:import url="/views/includes/header.jsp"></c:import>
 	
+	<c:if test="${cookie.emailCookie != null}">
+		<div class="alert alert-primary alert-dismissible fade show" role="alert">
+			Welcome! You are logged in as: <c:out value="${cookie.emailCookie.value}"></c:out>
+		</div>
+	</c:if>
+	
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
